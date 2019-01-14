@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attach Printer"
+            android:padding="5dp"/>
+        <TextView android:id="@+id/lblPrinterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Printer Name"
+            android:padding="5dp"/>
+        <EditText android:id="@+id/txtText"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="5dp"/>
+        <Button android:id="@+id/btnConnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect Printer"
+            android:padding="5dp"/>
+        <Button android:id="@+id/btnDisconect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disconect"
+            android:padding="5dp"/>
+
+        <Button android:id="@+id/btnPrint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Printe Document"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
